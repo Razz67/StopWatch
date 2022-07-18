@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: "HelveticaNeue-light", "Helvetica Neue Light", "Helvetica neue", Arial, Helvetica, "Lucinda Grande",sans-serif;
+body {
+    font-family: "HelveticaNeue-light", "Helvetica Neue Light", "Helvetica neue", Arial, Helvetica, "Lucinda Grande", sans-serif;
     height: 100%;
     background-color: rgb(73, 73, 224);
 }
@@ -18,28 +18,35 @@ body{
 }
 
 h1,
+h2 {
+    margin-bottom: 25px;
+}
+
+
+h1,
 h2,
 h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size:  2.6em;
+    font-size: 2.6em;
     text-transform: uppercase;
 }
 
-#seconds, #tens {
+#seconds,
+#tens {
     font-size: 2em;
 }
 
 button {
     border-radius: 5px;
-    background: rgb(73, 73,224);
+    background: rgb(73, 73, 224);
     color: #fff;
     border: solid 1px #fff;
     text-decoration: none;
     cursor: pointer;
     font-size: 1.5em;
     padding: 18px 10px;
-    margin: 10px;
+    margin: 30px;
     outline: none;
 }
 
